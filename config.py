@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/DarkAarush/wynk")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://youtu.be/GbNumyOGDuc")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DSH_OFFICIAL_CLAN")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DSH_OFFICIAL_CLAN")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/plovestatus")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/apani_dosti")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,24 +76,24 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/5c4bd5b0bf59990f68f27.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/cb8a59cf016e0a16daeac.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/5c4bd5b0bf59990f68f27.jpg",
+    "https://graph.org/file/cb8a59cf016e0a16daeac.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/5c4bd5b0bf59990f68f27.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/cb8a59cf016e0a16daeac.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/5c4bd5b0bf59990f68f27.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/cb8a59cf016e0a16daeac.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/5c4bd5b0bf59990f68f27.jpg"
+STATS_IMG_URL = "https://graph.org/file/cb8a59cf016e0a16daeac.jpg"
 
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/5c4bd5b0bf59990f68f27.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/cb8a59cf016e0a16daeac.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/cb8a59cf016e0a16daeac.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://graph.org/file/cb8a59cf016e0a16daeac.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
